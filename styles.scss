@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin: auto;
+  max-width: 1730px;
+  font-family: "Open Sans", sans-serif;
+}
+$color: rgb(235, 80, 80);
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+  color: $color;
+  > #list1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  > #eshop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  > #icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+main {
+  display: flex;
+
+  > #part1 {
+    background-image: url("https://www.cafecoffeeday.com/sites/all/themes/ccd/assets/images/store-locator/storelocator-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 70vw;
+    height: 500px;
+  }
+  > #part2 {
+    background-color: #dc4348;
+    width: 30vw;
+    color: white;
+  }
+}
